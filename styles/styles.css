@@ -3,3 +3,40 @@
     padding: 0;
     margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+body {
+    font-family: 'EB Garamond', 'Courier New', Courier, monospace;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left {
+    flex: 2 1 30%;
+    background-image: url(/img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover; /* Ensures the image fully covers the div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.right {
+    flex: 3 1 70%; /* Grow 3x, Shrink 1x, Start at 60% */
+    background-color: bisque;
+}
+
+.left h1 {
+    background-color: rgba(239, 239, 240, 0.3);
+    margin-top: 150px;
+    font-size: 2.5rem;
+}
+.left .credits {
+    margin-top: auto;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
