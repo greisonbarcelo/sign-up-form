@@ -20,31 +20,43 @@
                 <p>Let's do this</p>
             </div>
             <form action="POST">
+                <label>Let's do this!</label>
                 <fieldset>
-                    
-                    <label for="firstname">First Name</label>
-                    <input type="text" id="firstname" name="firstname" required minlength="8" maxlength="15">
-
-                    <label for="lastname">Last Name</label>
-                    <input type="text" id="lastname" name="lastname" required minlength="8" maxlength="15">
+                    <div class="item">
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="firstname" required minlength="8" maxlength="15" placeholder="John">
+                    </div>
+                    <div class="item">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="lastname" minlength="8" maxlength="15" placeholder="Doe">
+                   </div>
                 </fieldset>
                 <fieldset>
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required minlength="8" maxlength="15">
-
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" required min="11">
+                    <div class="item">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required minlength="8" maxlength="15" placeholder="johndoe@gmail.com">
+                    </div>
+                    <div class="item">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required min="11" placeholder="09321586729">
+                    </div>
                 </fieldset>
                 <fieldset>
-                    <label for="firstname">Password</label>
-                    <input type="text" id="firstname" name="firstname" required minlength="8" maxlength="15">
-
-                    <label for="lastname">Confirm Password</label>
-                    <input type="text" id="lastname" name="lastname" required minlength="8" maxlength="15">
+                    <div class="item">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required minlength="8" maxlength="15">
+                    </div>
+                    <div class="item">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required minlength="8" maxlength="15">
+                    </div>
                 </fieldset>
+                <div class="sign-up">
+                    <button>Create Account</button>
+                </div>
             </form>
             <div class="actions">
-                <button>Create Account</button>
+                
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
