@@ -9,11 +9,45 @@
 </head>
 <body>
     <div class="container">
-        <div class="left" id="left-pannel-img">
+        <div class="left">
             <h1>Sign up form</h1>
             <p class="credits">Photo by Halie West on Unsplash</p>
         </div>
-        <div class="right">2</div>
+        <div class="right">
+            <div class="header">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quo corrupti similique aspernatur sapiente soluta molestias ullam adipisci quae id.</p>
+                <br>
+                <p>Let's do this</p>
+            </div>
+            <form action="POST">
+                <fieldset>
+                    
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname" required minlength="8" maxlength="15">
+
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" required minlength="8" maxlength="15">
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required minlength="8" maxlength="15">
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required min="11">
+                </fieldset>
+                <fieldset>
+                    <label for="firstname">Password</label>
+                    <input type="text" id="firstname" name="firstname" required minlength="8" maxlength="15">
+
+                    <label for="lastname">Confirm Password</label>
+                    <input type="text" id="lastname" name="lastname" required minlength="8" maxlength="15">
+                </fieldset>
+            </form>
+            <div class="actions">
+                <button>Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

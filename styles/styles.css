@@ -27,7 +27,7 @@ body {
 
 .right {
     flex: 3 1 70%; /* Grow 3x, Shrink 1x, Start at 60% */
-    background-color: bisque;
+    background-color: rgb(248,252,253);
 }
 
 .left h1 {
@@ -39,4 +39,27 @@ body {
     margin-top: auto;
     margin-bottom: 8px;
     font-size: 12px;
+}
+.right .header {
+    padding: 96px 12px 24px 12px;
+    font-size: 1.2rem;
+    word-spacing: 1px;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    margin: 20px;
+
+}
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+label {
+    font-weight: bold;
+    width: 100px;
 }
