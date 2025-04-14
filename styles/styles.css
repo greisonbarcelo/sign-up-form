@@ -15,7 +15,7 @@ body {
 
 .left {
     flex: 2 1 30%;
-    background-image: url(/sign-up-form-main/img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(/img/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover; /* Ensures the image fully covers the div */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents tiling */
